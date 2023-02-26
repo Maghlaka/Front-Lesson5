@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+li a{
+    color: #ffffff;
+}
+.contact{
+    padding: 18px 43px 18px 36px;
+    background-color: #ffffff;
+    color: #171717;
+    border-radius: 28px;
+}
+li{
+    margin-right: 43px;
+}
+nav, li,  ul{
+    display: inline-block;
+}
+header{
+    background-color: #0020F4;
+    max-width: 1920px;
+    width: 100%;
+    padding-top: 40px;
+    height: 387.56px;
+    
+}
+.logo{
+    padding-left: 240px;
+}
+nav ul{
+    padding-left: 843px;
+}
+.main{
+    max-width: 1195px;
+    width: 100%;
+    
+    margin-left: 362px;
+    margin-top: -175px;
+}
+.satauri{
+    margin-left: 362px;
+    margin-top: 30px;
+}
+.images{
+    margin-left: 362px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+.images img{
+    width: 219px;
+    height: 219px;
+    margin-right: 25px;
+}
+.text{
+    margin-left: 484.5px;
+    width: 951px
+}
+.text p{
+    margin-bottom: 18px;
+}
+h3{
+    margin-left: 847px;
+    margin-top: 40px;
+}
+h3 a{
+    background-color: #0A22F4;
+    padding: 18px 77px 18px 57px;
+    border-radius: 28px;
+}
+footer{
+    width: 1920px;
+    max-width: 100%;
+    height: 1080px;
+    background-color: #0A22F4;
+    margin-top: 180px;
+    padding-left: 240px;
+}
+h2{
+    padding-top: 275px;
+}
+.footer-text{
+    width: 463px;
+    height: 99px;
+    margin-top: 30px;
+}
+.map{
+    overflow-clip-margin:initial;
+    width: 463px;
+    height: 197px;
+    border-radius: 15px;
+    margin-top: 58px;
+}
+.footer-ul, .footer li{
+    margin-top: 92px;
+    vertical-align: middle;
+}
+.phone, .envelope{
+    width: 70px;
+    height: 70px;
+    padding: 22px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.number{
+    margin-right: 98px;
+}
+.last{
+    display: inline-block;
+}
