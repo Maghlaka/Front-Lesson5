@@ -10,6 +10,9 @@ ul{
     list-style-type: none;
 }
 li a{
+    font-size: 16px;
+    font-family: HelveticaNeue;
+    font-style: regular;
     color: #ffffff;
 }
 .contact{
@@ -21,8 +24,11 @@ li a{
 li{
     margin-right: 43px;
 }
-nav, li,  ul{
+nav, li,  .header-ul{
     display: inline-block;
+}
+.container{
+    vertical-align: middle;
 }
 header{
     background-color: #0020F4;
@@ -35,17 +41,21 @@ header{
 .logo{
     padding-left: 240px;
 }
-nav ul{
+.header-ul{
+    margin-top: -228px;
     padding-left: 843px;
 }
 .main{
     max-width: 1195px;
-    width: 100%;
+    
     
     margin-left: 362px;
     margin-top: -175px;
 }
 .satauri{
+    font-family: HelveticaNeue;
+    font-size: 28px;
+    font-weight:bold;
     margin-left: 362px;
     margin-top: 30px;
 }
@@ -61,6 +71,8 @@ nav ul{
     margin-right: 25px;
 }
 .text{
+    font-family: HelveticaNeueLT55Roman;
+    font-size: 16px;
     margin-left: 484.5px;
     width: 951px
 }
@@ -68,18 +80,22 @@ nav ul{
     margin-bottom: 18px;
 }
 h3{
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    font-size: 16px;
     margin-left: 847px;
     margin-top: 40px;
 }
 h3 a{
+    color: #FFFFFF;
     background-color: #0A22F4;
     padding: 18px 77px 18px 57px;
     border-radius: 28px;
 }
 footer{
-    width: 1920px;
-    max-width: 100%;
-    height: 1080px;
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
     background-color: #0A22F4;
     margin-top: 180px;
     padding-left: 240px;
@@ -88,6 +104,9 @@ h2{
     padding-top: 275px;
 }
 .footer-text{
+    font-family: HelveticaNeueLT55Roman;
+    font-size: 16px;
+    color: #FFFFFF;
     width: 463px;
     height: 99px;
     margin-top: 30px;
@@ -100,6 +119,7 @@ h2{
     margin-top: 58px;
 }
 .footer-ul, .footer li{
+    
     margin-top: 92px;
     vertical-align: middle;
 }
@@ -111,9 +131,54 @@ h2{
     border-radius: 50px;
     margin-right: 20px;
 }
+.mail{
+    color: #FFFFFF;
+}
 .number{
+    color: #FFFFFF;
     margin-right: 98px;
 }
 .last{
+    margin-top: 206px;
     display: inline-block;
+}
+.footer-ul{
+    height: 70px;
+}
+.footer-ul li{
+    vertical-align: middle;
+}
+.last li{
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.damzadebulia{
+    margin-left: 896px;
+}
+.heart{
+    margin-left: 15px;
+}
+.it{
+    margin-left: 10px;
+}
+.kontakti{
+    font-family: HelveticaNeue;
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.footer-text{
+    color: #FFFFFF;
+}
+.space{
+    height: 180px;
+}
+.number, .mail{
+    font-family: HelveticaNeue;
+    font-size: 22px;
+    font-weight: bold;
 }
